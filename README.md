@@ -8,7 +8,7 @@
 - git merge feature/fetch-users
 - git branch -d feature/fetch-users
 - git checkout -b feature/user-detail
-- git add user-detail.js user-detail.html
+- git add user-detail.js 
 - git add user-detail.html
 - git commit -m "รายละเอียดผู้ใช้"
 - git checkout develop
@@ -29,6 +29,8 @@
 - git branch -d feature/ui-update
 - git checkout main
 - git merge develop
+- git add user-detail.js user-detail.html
+- git commit -m "แก้ไขโพสต์ของผู้ใช้"
 - git add README.md
 - git commit -m "Git Commands"
 - git push -u origin main
