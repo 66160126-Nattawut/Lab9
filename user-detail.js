@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         `;
 
         viewPostsButton.addEventListener("click", () => {
-            window.location.href = `user-posts.html?id=${user.id}`;
+            window.location.href = `user-post.html?id=${user.id}`;
         });
 
     } catch (error) {
